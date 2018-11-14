@@ -1,0 +1,43 @@
+#loginBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+.login_Input,
+.auth_btn,
+.account_message {
+    width: 300px;
+}
+
+.login_Input {
+    height: 30px;
+    margin: 10px;
+    border: none;
+    text-indent: 5px;
+}
+
+.auth_btn {
+    height: 50px;
+    margin: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: rgba(218, 216, 216, 0);
+    text-transform: uppercase;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.auth_btn:hover {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.account_message {
+    margin-top: 10px;
+    border: 2px solid rgb(231, 158, 21);
+    background-color: rgb(233, 236, 44);
+    padding: 10px;
+    text-align: center;
+}

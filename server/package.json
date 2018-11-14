@@ -1,0 +1,23 @@
+{
+  "name": "test_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon api/server.js",
+    "client": "npm start --prefix client"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-plugin-node": "^8.0.0",
+    "nodemon": "^1.18.5"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.8"
+  }
+}

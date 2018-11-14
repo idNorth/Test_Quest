@@ -1,0 +1,21 @@
+#productIdBlock {
+    width: 100%;
+}
+
+.titleProduct {
+    padding: 20px;
+}
+
+.productElem {
+    height: 30px;
+    width: 60%;
+    background-color: #fff;
+    margin: 10px auto;
+    line-height: 30px;
+    text-indent: 10px;
+    box-shadow: 0 0 3px #000;
+}
+
+.productDescription {
+    height: 60px;
+}

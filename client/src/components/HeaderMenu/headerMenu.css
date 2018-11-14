@@ -1,0 +1,23 @@
+#headerMenu {
+    background-color: #fff;
+    border-bottom: 1px solid rgb(112, 109, 109);
+}
+
+.header_btn {
+    display: inline-block;
+    padding: 15px;
+    margin: 10px 20px;
+    cursor: pointer;
+    transition: .5s;
+    border-bottom: 3px solid #fff;
+    text-decoration: none;
+    color: #000;
+}
+
+.login_btn {
+    float: right;
+}
+
+.header_btn:hover {
+    border-bottom: 3px solid #000;
+}
